@@ -24,14 +24,14 @@ class Teacher extends Person {
 }
 }
 
-const student= new Student("vivek",22);
-student.study();
+// const student= new Student("vivek",22);
+// student.study();
 
-const teacher= new Teacher("Rahul",45)
-teacher.teach()
+// const teacher= new Teacher("Rahul",45)
+// teacher.teach()
 
-student.age=24
-console.log(student)
+// student.age=24
+// console.log(student)
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
